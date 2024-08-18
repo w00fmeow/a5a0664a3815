@@ -46,17 +46,22 @@ $ pipx uninstall credentials-extractor
 
 ```
 $ credentials-extractor --help
-Usage: change_me [OPTIONS]
+Usage: credentials-extractor [OPTIONS]
 
 Options:
-  --help  Show this message and exit.
+  --s3_bucket_name TEXT  S3 bucket name  [required]
+  --s3_access_key TEXT   S3 access key  [required]
+  --s3_secret TEXT       S3 secret  [required]
+  --help                 Show this message and exit.
+
 
 ```
 
 Example with arguments:
 
 ```
-$ credentials-extractor --help
+$ credentials-extractor --s3_bucket_name BUCKET_NAME --s3_access_key ACCESS_KEY --s3_secret SECRET
+
 ```
 
 ## Tests
