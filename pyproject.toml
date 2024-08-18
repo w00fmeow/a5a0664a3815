@@ -9,8 +9,9 @@ readme = "README.md"
 python = "^3.11"
 
 click = "^8.1.7"
+boto3 = "^1.35.0"
 [tool.poetry.scripts]
-change_me = "a5a0664a3815.cli:run"
+credentials-extractor = "a5a0664a3815.cli:run"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.8.0"

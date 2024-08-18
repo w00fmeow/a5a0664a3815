@@ -39,13 +39,13 @@ $ pipx install git+https://github.com/w00fmeow/a5a0664a3815.git
 The app can be uninstalled like so:
 
 ```
-$ pipx uninstall change_me
+$ pipx uninstall credentials-extractor
 ```
 
 ## Running
 
 ```
-$ change_me --help
+$ credentials-extractor --help
 Usage: change_me [OPTIONS]
 
 Options:
@@ -56,7 +56,7 @@ Options:
 Example with arguments:
 
 ```
-$ change_me --help
+$ credentials-extractor --help
 ```
 
 ## Tests
